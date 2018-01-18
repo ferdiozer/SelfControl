@@ -1,0 +1,3 @@
+String mydate = java.text.DateFormat.getDateTimeInstance().format(Calendar.getInstance().getTime());
+
+min android : 5.0

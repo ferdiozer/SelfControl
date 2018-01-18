@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_title"
+        android:textColor="?attr/actionModeSplitBackground"
+        android:textSize="26sp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="91dp"
+            android:layout_marginTop="26dp"
+            android:background="@android:color/holo_blue_dark"
+            android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="36dp"
+            android:paddingTop="10dp"
+            android:text="\nİkon sağda"
+            android:textColor="#e8e9e9" />
+        <Button
+            android:id="@+id/day_time"
+            android:layout_width="fill_parent"
+            android:layout_height="91dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/holo_blue_dark"
+            android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="36dp"
+            android:paddingTop="10dp"
+            android:text="\ndeneme"
+            android:textColor="#e8e9e9" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/detail" />
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="139dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingTop="@android:dimen/notification_large_icon_width">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_blue_light"
+                    android:drawableTop="@android:drawable/ic_lock_power_off"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="8dp"
+                    android:text="\nButton"
+                    android:textColor="#e8e9e9" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:background="#d9a950"
+                    android:drawableTop="@android:drawable/checkbox_on_background"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="8dp"
+                    android:text="\nButton"
+                    android:textColor="#e8e9e9" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#d9a950"
+                    android:drawableTop="@android:drawable/ic_secure"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="8dp"
+                    android:text="\nAyarlar"
+                    android:textColor="#e8e9e9" />
+
+        </LinearLayout>
+
+
+</ScrollView>

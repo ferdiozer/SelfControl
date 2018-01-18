@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SelfControl</string>
+    <string name="slogan">Telefon Kullanımını Kontrol Altına Al</string>
+    <string name="main_title">Günlük İstatistikler</string>
+    <string name="total">Toplam</string>
+    <string name="detail">Detay</string>
+    <string name="setting">Ayarlar</string>
+    <string name="day_time">Kullanım Süresi</string>
+    <string name="day_look_size">Açma/Kapatma Sayısı</string>
+    <string name="this_is_a_header">This is a header</string>
+    <string name="button">Button</string>
+    <string name="button1">Button</string>
+    <string name="btn_app_usageStats">UYGULAMA KULLANIM İSTATİSTİĞİ</string>
+    <string name="togle_acik">Açık</string>
+    <string name="toogle_kapali">Kapalı</string>
+    <string name="bildirim_ayarlar">Bildirim Ayarları</string>
+    <string name="bildirim_title">Bildirim</string>
+    <string name="smslog">Sms Kayıtları</string>
+    <string name="calllog">Arama Kayıtları</string>
+
+</resources>
