@@ -14,3 +14,8 @@ Java
 SQLite
 Broadcast receiver, usage stats, Application İnfo
 
+
+Kodları indirdirdiğinizde clean project ve ardından rebuild project yapıp kullanabiirsiniz.
+
+Tavsiye Edilen Sistem Gereksinimleri :
+Android Level 21 (5)
